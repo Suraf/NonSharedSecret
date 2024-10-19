@@ -12,8 +12,8 @@ const App = () => {
 
 	return (
 		<div>
-			<h1>Shared secret</h1>
-			<p>this key is safe to share (I think so): {secret}</p>
+			<h1>Non shared secret</h1>
+			<p>{secret}</p>
 		</div>
 	);
 };
